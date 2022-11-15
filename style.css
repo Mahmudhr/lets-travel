@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 body {
   margin: 0;
   padding: 0;
 }
 .header {
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/bg2.png);
+    font-family: "Ubuntu", sans-serif;
   background-size: cover;
-  font-family: "Ubuntu", sans-serif;
   text-align: center;
   height: 100vh;
   margin-top: -150px;
@@ -65,3 +68,153 @@ body {
   border-radius: 20px;
   font-weight: 600;
 }
+.body-section {
+margin: 0px 50px;
+}
+.feature-tag {
+  text-align: center;
+  font-size:larger;
+}
+.feature{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 15px;
+padding-bottom: 40px;
+}
+.feature img{
+width: 100%;
+}
+.destination{
+border: 2px solid floralwhite;
+background-color: cornsilk;
+}
+.feature p{
+ font-family: "Ubuntu", sans-serif;
+font-weight:400;
+margin: 0px 5px;
+}
+.feature h3{
+font-family: 'Raleway', sans-serif;
+text-align: center;
+}
+.full-feature {
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(assets/banner1.png);
+width: 100%;
+height: 100vh;
+font-family: 'Raleway', sans-serif;
+
+}
+.row{
+display: flex;
+height: 88%;
+align-items: center;
+padding-left: 8%;
+padding-right: 8%;
+}
+.col{
+flex-basis: 50%;
+margin-top: 100px;
+}
+.col h1{
+color: white;
+font-size: 100px;
+text-shadow: 5px 5px 3px black;
+}
+.col p{
+color: white;
+font-size: 13px;
+margin-top: -70px;
+}
+.card{
+width: 200px;
+height: 230px;
+display: inline-block;
+transition: transform 0.5s;
+border-radius: 10px;
+padding: 15px 25px;
+margin: 10px 15px;
+background-position: center;
+background-size: cover;
+}
+.card1{
+background-image:url(assets/pic-1.png);
+}
+.card2{
+background-image:url(assets/pic-2.png);
+}
+.card3{
+background-image:url(assets/pic-3.png);
+}
+.card4{
+background-image:url(assets/pic-4.png);
+}
+.card h5 {
+text-align: center;
+font-size: 15px;
+color: black;
+margin-top: -5px;
+font-weight: 600;
+}
+.card:hover{
+transform: translateY(-15px);
+}
+.feature-destination {
+margin-top: 35px;
+}
+.maldives .full-feature{
+  margin-top: 10px;
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(assets/banner2.jpg);
+width: 100%;
+height: 100vh;
+font-family: 'Raleway', sans-serif;
+background-size:cover ;
+}
+.c1{
+background-image: url(assets/p1.png);
+}
+.c2{
+background-image: url(assets/p2.png);
+}
+.c3{
+background-image: url(assets/p3.png);
+}
+.c4{
+background-image: url(assets/p4.png);
+}
+.footer-section{
+background-color: bisque;
+font-family: "Ubuntu", sans-serif;
+margin-top: 60px;
+}
+#footer-heading-tag{
+font-family: 'Dancing Script', cursive;
+text-align: center;
+font-weight: 700;
+margin: 15px 0px;
+padding: 15px 0px;
+background-color: aliceblue;
+}
+.social-site a{
+margin: 0px 10px;
+padding: 0px 10px;
+}
+.info{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 15px 20px;
+padding: 15px 20px;
+}
+.para{
+text-align: center;
+margin: 15px 15px;
+padding: 15px 15px;
+}
+#logo{
+color: black;
+font-size: 20px;
+}
+#final-img{
+text-align: center;
+}
+
