@@ -136,6 +136,10 @@ margin: 10px 15px;
 background-position: center;
 background-size: cover;
 }
+.card-col{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
 .card1{
 background-image:url(assets/pic-1.png);
 }
