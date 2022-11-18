@@ -222,3 +222,57 @@ font-size: 20px;
 text-align: center;
 }
 
+/* 
+.col{
+flex-basis: 50%;
+margin-top: 100px;
+}
+.col h1{
+color: white;
+font-size: 100px;
+text-shadow: 5px 5px 3px black;
+}
+.col p{
+color: white;
+font-size: 13px;
+margin-top: -70px;
+}
+*/
+@media only  screen and (max-width:688px) {
+  .feature{
+  grid-template-columns: repeat(1,1fr);
+  width: 100%;
+  }
+  .container img{
+  width: 20%;
+  height: 20%;
+  }
+  .container h1{
+  display: none;
+  }
+  .full-feature, .maldives {
+display: none;
+  }
+  #final-img img{
+  width: 100%;
+  }
+}
+@media only screen and (min-width:689px) and (max-width:992px)  {
+  .feature{
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  }
+   .full-feature, .maldives {
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: space-around;
+  }
+  .description {
+  display: none;
+  }
+  #final-img img{
+  width: 100%;
+  }
+}
+
